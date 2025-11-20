@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Mason Anderson's Homepage">
+    <title>Mason Anderson - Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation Menu (same on all pages) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Hobbies</a></li>
+            <li><a href="discover.html">Discover UMD</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="minesweeper.html">Game</a></li>
+        </ul>
+    </nav>
+
+    <!-- Your page content goes here -->
+    <main>
+        <h1>Welcome</h1>
+        
+        <!-- Professional Introduction Section -->
+        <section class="about-section">
+            <div class="profile-container">
+                <img src="../images/headshot.png" alt="Mason Anderson Professional Headshot" class="profile-photo" onerror="this.style.display='none'; document.getElementById('image-placeholder').style.display='flex';">
+                <div id="image-placeholder" class="profile-photo-placeholder" style="display: none;">
+                    <p>Mason Anderson</p>
+                    <small>Professional Photo</small>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Welcome to my personal website! I'm Mason Anderson, a dedicated finance and accounting student at the University of Minnesota Duluth, Class of 2027. I'm passionate about pursuing a career in finance and accounting, and I'm actively seeking internship opportunities to apply my knowledge and contribute to dynamic accounting teams.</p>
+                <p>With a strong academic foundation, including a 3.96 GPA, and four years of professional experience in customer service and training, I bring a unique combination of technical skills, leadership abilities, and a commitment to excellence. This website showcases my academic journey, professional experience, personal interests, and career aspirations.</p>
+                <p>Explore the different sections to learn more about my background, hobbies, why I chose UMD, and my career goals. I'm excited to share my story with you!</p>
+            </div>
+        </section>
+
+        <!-- Welcome Video Section -->
+        <section class="discover-section video-section">
+            <h2>Welcome Video</h2>
+            <p class="video-description">Watch this welcome video to get to know me better and learn more about my journey!</p>
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <video controls autoplay muted loop poster="../images/headshot.png">
+                        <source src="../images/Make_a_welcome_202511181535_c4y2g.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobby Summaries Section -->
+        <section class="hobbies-section">
+            <h2>My Interests</h2>
+            
+            <div class="hobby-item">
+                <div class="hobby-image-container">
+                    <img src="../images/baseball solo.JPG" alt="Baseball" class="hobby-image" onerror="handleImageError(this)">
+                </div>
+                <div class="hobby-content">
+                    <h3>Baseball</h3>
+                    <p>Baseball has been a significant part of my life, teaching me discipline, teamwork, and the importance of perseverance. Playing varsity baseball in high school helped me develop leadership skills and learn how to work effectively as part of a team. The sport has taught me valuable lessons about setting goals, working hard to achieve them, and supporting my teammates along the way.</p>
+                    <p>These experiences on the baseball field have directly translated to my academic and professional life, helping me maintain focus, manage my time effectively, and collaborate with others in group projects and work environments.</p>
+                </div>
+            </div>
+
+            <div class="hobby-item">
+                <div class="hobby-image-container">
+                    <img src="../images/stock gaming.JPG" alt="Gaming" class="hobby-image" onerror="handleImageError(this)">
+                </div>
+                <div class="hobby-content">
+                    <h3>Gaming</h3>
+                    <p>Gaming is one of my favorite ways to relax and unwind after a long day of classes and studying. I enjoy playing a variety of games, from strategic team-based games to competitive esports titles. Gaming has helped me develop problem-solving skills, quick decision-making abilities, and the ability to work effectively in team environments.</p>
+                    <p>Beyond entertainment, gaming has also sparked my interest in technology and how digital platforms can be used for learning and professional development. It's a hobby that balances fun with skill development, and it provides a great way to connect with friends and build relationships.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (same on all pages) -->
+    <footer>
+        <p>&copy; 2025 Mason Anderson. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
